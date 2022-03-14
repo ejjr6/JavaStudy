@@ -1,0 +1,15 @@
+package exam;
+
+import java.util.Scanner;
+
+public class BankApp {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// while문 반복 flag true = run, false = stop
+		boolean isRun = true;
+		
+
+	}
+
+}
