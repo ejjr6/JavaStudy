@@ -1,0 +1,11 @@
+package f.cooperation;
+
+public class TakeTrans {
+
+	public static void main(String[] args) {
+		Bus bus100 = new Bus(100);
+		bus100.showInfo();
+
+	}
+
+}

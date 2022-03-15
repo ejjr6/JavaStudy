@@ -1,0 +1,13 @@
+package e.reference;
+
+public class CarExample {
+
+	public static void main(String[] args) {
+		Car car = new Car();
+		System.out.println(car.company);
+		System.out.println(car.model);
+		System.out.println(car.engine);
+
+	}
+
+}

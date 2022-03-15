@@ -1,0 +1,69 @@
+package array;
+
+public class ArrayExample {
+
+	public static void main(String[] args) {
+		
+		// 배열의 위치와 값을 선언과 동시에 초기화
+		int[] scores = {70,60,50,40,60,60};
+		System.out.println(scores);
+		int[] scores2 = scores;
+		System.out.println(scores2);
+		scores[0] = 80;
+		System.out.println(scores[0]);
+		System.out.println(scores2[0]);
+		System.out.println(scores == scores2);
+		
+		int a = 10;
+		int b = a;
+		b = 20;
+		System.out.println(a == b);
+		System.out.println("scores의 길이 : "+scores.length);
+		
+		int[] arrays;
+		arrays = null;
+//		arrays[0] = 10;
+//		System.out.println(arrays);
+		if(arrays == null) {
+			arrays = new int[6];
+		}
+		
+		arrays[5] = 80;
+		arrays[3] = 60;
+		
+		for(int i = 0; i< arrays.length; i++) {
+			System.out.printf("arrays[%d] : %d \n",i,arrays[i]);
+		}
+		//arrays[6] = 100;
+		
+//		arrays = null;
+//		arrays[0] = 100;
+		
+		// 문자 형 배열
+		char chars[] = new char[26];
+		
+		char c = 'A';
+		for(int i=0; i < chars.length; i++) {
+			chars[i] = c;
+		}
+		
+		for(int i=0; i < chars.length; i++) {
+			System.out.print("["+chars[i]+"]");
+		}
+		System.out.println();
+		
+		// 실수
+		double[] doubles = new double[3];
+		doubles[1] = 3.14;
+		for(int i=0; i<doubles.length; i++) {
+			System.out.print(doubles[i]+" ");
+		}
+		System.out.println();
+		
+		// 논리형 - 초기값 false
+		boolean[] tasks = new boolean[5];
+		System.out.println(tasks[tasks.length-1]);
+
+	}
+
+}
