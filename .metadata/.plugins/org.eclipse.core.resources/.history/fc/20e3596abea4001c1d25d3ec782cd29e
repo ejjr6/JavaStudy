@@ -1,0 +1,13 @@
+package static_test;
+
+public class StaticTest {
+
+	static int a;
+	
+	public static void main(String[] args) {
+		System.out.println(StaticTest.a);
+		
+
+	}
+
+}
