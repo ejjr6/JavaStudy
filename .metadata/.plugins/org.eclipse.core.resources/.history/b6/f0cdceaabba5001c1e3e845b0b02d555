@@ -1,0 +1,5 @@
+package d.phone;
+
+public class AndroidPhone extends DMBPhone {
+
+}

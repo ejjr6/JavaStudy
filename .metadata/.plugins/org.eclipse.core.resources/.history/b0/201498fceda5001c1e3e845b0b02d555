@@ -1,0 +1,15 @@
+package GUIDE;
+
+public class MainBoardPlay {
+
+	public static void main(String[] args) {
+		
+		Player player = new Player();
+		player.play(1);
+		
+		AdvanceLevel aLevel = new AdvanceLevel();
+		player.upgradeLevel(aLevel);
+		player.play(2);
+	}
+
+}

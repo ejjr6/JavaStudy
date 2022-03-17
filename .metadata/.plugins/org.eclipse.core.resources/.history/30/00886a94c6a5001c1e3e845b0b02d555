@@ -1,0 +1,21 @@
+package f.polymorphism.customer;
+
+public class VIPCustomer extends GoldCustomer {
+
+	private int agendID;	// 담당 직원
+
+	public VIPCustomer(int customerID, String customerName, int agendID) {
+		super(customerID, customerName);
+		super.customerGrade = "VIP";
+		super.bonusRatio = 0.05;
+		super.saleRatio = 0.2;
+		this.agendID = agendID;
+	}
+
+	@Override
+	public String showCustomerInfo() {
+		return super.showCustomerInfo()
+						+" 담당직원 번호는 : "+this.agendID+"입니다.";
+	}
+
+}

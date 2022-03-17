@@ -1,0 +1,5 @@
+package GUIDE;
+
+public abstract class PlayerLevel {
+
+}

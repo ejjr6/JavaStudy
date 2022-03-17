@@ -1,0 +1,39 @@
+package f.polymorphism;
+
+// 각 은행의 이자율
+class Bank{
+	double getInterestRate() {
+		return 0.0;
+	}
+}
+
+class BadBank extends Bank{
+	double getInterestRate() {
+		return 10.0;
+	}
+}
+
+class NormalBank extends Bank{
+	@Override
+	double getInterestRate() {
+		return 5.0;
+	}
+}
+
+class GoodBank extends Bank{
+	@Override
+	double getInterestRate() {
+		// TODO Auto-generated method stub
+		return super.getInterestRate();
+	}
+}
+
+
+public class BankExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

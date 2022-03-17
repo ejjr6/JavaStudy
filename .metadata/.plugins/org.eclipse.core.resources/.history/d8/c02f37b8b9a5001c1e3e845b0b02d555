@@ -1,0 +1,13 @@
+package c.override;
+
+public class Computer extends Calculator {
+	
+	// alt + s + v
+	@Override
+	public double circleArea(double radius) {
+		// TODO Auto-generated method stub
+		return super.circleArea(radius);
+	}
+	
+	
+}

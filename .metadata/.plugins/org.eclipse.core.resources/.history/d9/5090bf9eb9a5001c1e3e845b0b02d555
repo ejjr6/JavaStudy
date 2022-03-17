@@ -1,0 +1,5 @@
+package c.override;
+
+public class Computer extends Calculator {
+
+}

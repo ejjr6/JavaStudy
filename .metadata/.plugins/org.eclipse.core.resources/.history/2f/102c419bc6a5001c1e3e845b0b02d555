@@ -1,0 +1,14 @@
+package f.polymorphism.customer;
+
+public class CustomerExample {
+
+	public static void main(String[] args) {
+		Customer[] customerList = new Customer[10];
+		
+		Customer customerSim = new Customer(100110, "심현석");
+		Customer customerKim = new Customer(100111, "김재관");
+		Customer customerChoi = new GoldCustomer(100112, "최기근");
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package f.polymorphism;
+
+public class Student extends Person {
+
+}

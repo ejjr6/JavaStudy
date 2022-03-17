@@ -1,0 +1,5 @@
+package f.polymorphism.customer;
+
+public class VIPCustomer extends GoldCustomer {
+
+}

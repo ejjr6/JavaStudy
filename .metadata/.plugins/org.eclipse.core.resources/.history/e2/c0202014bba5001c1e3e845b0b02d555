@@ -1,0 +1,5 @@
+package d.phone;
+
+public class DMBPhone extends Phone {
+
+}
