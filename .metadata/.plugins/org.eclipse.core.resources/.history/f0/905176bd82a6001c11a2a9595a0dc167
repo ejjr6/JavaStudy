@@ -1,0 +1,5 @@
+package d.cooperation;
+
+public interface DatabaseAccessObject {
+
+}

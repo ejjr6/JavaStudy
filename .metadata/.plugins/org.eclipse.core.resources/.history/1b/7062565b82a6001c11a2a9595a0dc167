@@ -1,0 +1,31 @@
+package c.poly;
+
+class MongoDB implements Connection{
+	@Override
+	public void connect() {
+		System.out.println("몽고 디비 연결");
+	}
+}
+
+class OracleDB implements Connection{
+	@Override
+	public void connect() {
+		System.out.println("오라클 디비 연결");
+	}
+}
+
+class MySQLDB implements Connection{
+	@Override
+	public void connect() {
+		System.out.println("MySQL 디비 연결");
+	}
+}
+
+public class JavaApplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

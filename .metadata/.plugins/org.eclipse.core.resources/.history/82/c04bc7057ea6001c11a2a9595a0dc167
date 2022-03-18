@@ -1,0 +1,23 @@
+package a.base;
+
+public class AirRemoteControl implements RemoteControl {
+
+	@Override
+	public void turnOff() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void turnOn() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setValue(int value) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

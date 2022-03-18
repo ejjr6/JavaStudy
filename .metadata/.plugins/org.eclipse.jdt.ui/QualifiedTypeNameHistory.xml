@@ -7,4 +7,14 @@
 <fullyQualifiedTypeName name="com.sun.media.jfxmedia.events.NewFrameEvent"/>
 <fullyQualifiedTypeName name="a3.A"/>
 <fullyQualifiedTypeName name="a5.A"/>
+<fullyQualifiedTypeName name="GUIDE.member.Member"/>
+<fullyQualifiedTypeName name="d.phone.Phone"/>
+<fullyQualifiedTypeName name="d.phone.DMBPhone"/>
+<fullyQualifiedTypeName name="e.protected1.a.A"/>
+<fullyQualifiedTypeName name="f.polymorphism.Person"/>
+<fullyQualifiedTypeName name="f.polymorphism.Student"/>
+<fullyQualifiedTypeName name="f.polymorphism.Teacher"/>
+<fullyQualifiedTypeName name="f.polymorphism.customer.Customer"/>
+<fullyQualifiedTypeName name="f.polymorphism.customer.GoldCustomer"/>
+<fullyQualifiedTypeName name="f.polymorphism.customer.VIPCustomer"/>
 </qualifiedTypeNameHistroy>

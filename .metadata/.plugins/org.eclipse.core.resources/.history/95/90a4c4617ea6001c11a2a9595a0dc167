@@ -1,0 +1,12 @@
+package a.base;
+
+public class RemoteControlExam {
+
+	public static void main(String[] args) {
+		RemoteControl tvRemote = new TVRemoteControl();	// new RemoteControl();
+		tvRemote.turnOn();
+		tvRemote.setValue(11);
+		tvRemote.turnOff();
+	}
+
+}

@@ -1,0 +1,5 @@
+package a.base;
+
+public interface Searchable {
+
+}

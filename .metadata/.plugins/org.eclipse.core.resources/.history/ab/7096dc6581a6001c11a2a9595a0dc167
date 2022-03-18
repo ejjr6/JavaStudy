@@ -1,0 +1,24 @@
+package b.defaults;
+
+public class Windows {
+
+	public void print(Printable printer) {
+		printer.Print();
+	}
+	
+//	public void print(LGPrinter printer) {
+//		printer.printLG();
+//	}
+	
+//	public void print(SamsungPrinter printer) {
+//		printer.samsungPrint();
+//	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

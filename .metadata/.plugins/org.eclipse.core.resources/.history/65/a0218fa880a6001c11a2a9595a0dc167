@@ -1,0 +1,11 @@
+package b.defaults;
+
+public class LGPrinter implements Printable {
+
+	@Override
+	public void Print() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
