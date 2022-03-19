@@ -1,0 +1,29 @@
+package d.math;
+
+public class MathExample {
+
+	public static void main(String[] args) {
+		// Math (수학관련 처리 클래스)
+		// 절대값을 알려주는 abs함수
+		int v1 = Math.abs(-5);
+		double v2 = Math.abs(-3.14);
+		System.out.println("v1 : " + v1);
+		System.out.println("v2 : "+ v2);
+		
+		// 실수를 넘겨받아 소수점 첫째자리에서
+		// 올림 연산 ceil
+		double v3 = Math.ceil(5.3);
+		double v4 = Math.ceil(-5.3);
+		System.out.println("v3 : " + v3);
+		System.out.println("v4 : " + v4);
+		
+		// 내림
+		double v5 = Math.floor(5.3);
+		double v6 = Math.floor(-5.3);
+		System.out.println("v5 : " + v5);
+		System.out.println("v6 : " + v6);
+		
+	
+	}
+
+}

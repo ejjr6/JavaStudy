@@ -17,4 +17,11 @@
 <fullyQualifiedTypeName name="f.polymorphism.customer.Customer"/>
 <fullyQualifiedTypeName name="f.polymorphism.customer.GoldCustomer"/>
 <fullyQualifiedTypeName name="f.polymorphism.customer.VIPCustomer"/>
+<fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+<fullyQualifiedTypeName name="a.object.hashcode.Key"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="a.object.clone.Member"/>
+<fullyQualifiedTypeName name="b.string.method.StringGetBytestExam"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.StringTokenizer"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,19 @@
+package f.arrays;
+
+import java.util.Arrays;
+
+public class ArraysCopyOfExam {
+
+	public static void main(String[] args) {
+		// 배열 복제
+		char[] arr1 = {'J','A','V','A'};
+		System.out.println("array1 : "+Arrays.toString(arr1));
+		
+		char[] arr2 = Arrays.copyOf(arr1, 3);
+		System.out.println("array2 : "+Arrays.toString(arr2));
+		
+		char[] arr3 = Arrays.copyOf(arr1, arr1.length);
+		System.out.println(Arrays.toString(arr3));
+	}
+
+}

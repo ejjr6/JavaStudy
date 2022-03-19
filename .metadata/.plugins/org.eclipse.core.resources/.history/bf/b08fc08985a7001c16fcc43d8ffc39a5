@@ -1,0 +1,17 @@
+package f.arrays;
+
+import java.util.Arrays;
+
+public class ArraysEqaulsExam {
+
+	public static void main(String[] args) {
+		int[][] original = {{1,2},{3,4}};
+		System.out.println("얕은 복제 후 비교");
+		int[][] copy1 = Arrays.copyOf(original, original.length);
+		System.out.println(original+"]]"+copy1+"]]");
+		System.out.println("배열 번지 비교 : "+original.equals(copy1));
+		
+
+	}
+
+}

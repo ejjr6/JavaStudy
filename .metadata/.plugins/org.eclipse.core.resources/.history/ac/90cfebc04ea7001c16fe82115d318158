@@ -1,0 +1,10 @@
+package b.string.stringtokenizer;
+
+public class StringSplitExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package g.format;
+
+public class DecimalFormatExample {
+
+	public static void main(String[] args) {
+		
+		double num = 123456.849;
+		DecimalFormat df = new DecimalFormat("0");
+
+	}
+
+}

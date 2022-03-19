@@ -1,0 +1,14 @@
+package f.arrays;
+
+import java.util.Arrays;
+
+public class ArraysCopyOfExam {
+
+	public static void main(String[] args) {
+		// 배열 복제
+		char[] arr1 = {'J','A','V','A'};
+		System.out.println("array1 : "+Arrays.toString(arr1));
+
+	}
+
+}

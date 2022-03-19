@@ -1,0 +1,14 @@
+package f.arrays;
+
+import java.util.Arrays;
+
+public class ArraysSortExample {
+
+	public static void main(String[] args) {
+		int[] scores = {96,99,98,97,100};
+		String values = Arrays.toString(scores);
+		System.out.println(values);
+
+	}
+
+}

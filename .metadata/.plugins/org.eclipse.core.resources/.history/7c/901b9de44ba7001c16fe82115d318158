@@ -1,0 +1,12 @@
+package b.string.method;
+
+public class StringValueOfExam {
+
+	public static void main(String[] args) {
+		String str1 = String.valueOf(10);
+		
+		System.out.println(str1);
+
+	}
+
+}

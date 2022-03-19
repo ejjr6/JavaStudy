@@ -11,4 +11,14 @@
 <typeInfo handle="=13_extends/src&lt;f.polymorphism.method{AnimalTest.java[Animal" modifiers="0" timestamp="1647517116900"/>
 <typeInfo handle="=13_extends/src&lt;g.abstract1{Animal.java[Animal" modifiers="1025" timestamp="1647517876309"/>
 <typeInfo handle="=13_extends/src&lt;GUIDE{PlayerLevel.java[PlayerLevel" modifiers="1025" timestamp="1647519367177"/>
+<typeInfo handle="=14_interface/src&lt;a.base{RemoteControl.java[RemoteControl" modifiers="513" timestamp="1647581656827"/>
+<typeInfo handle="=14_interface/src&lt;a.base{Searchable.java[Searchable" modifiers="513" timestamp="1647582323989"/>
+<typeInfo handle="=14_interface/src&lt;b.defaults{Printable.java[Printable" modifiers="513" timestamp="1647583155602"/>
+<typeInfo handle="=14_interface/src&lt;d.cooperation{DatabaseAccessObject.java[DatabaseAccessObject" modifiers="513" timestamp="1647584099629"/>
+<typeInfo handle="=14_interface/src&lt;e.array{Tire.java[Tire" modifiers="513" timestamp="1647584401824"/>
+<typeInfo handle="=14_interface/src&lt;f.diamond{A.java[A" modifiers="513" timestamp="1647584936102"/>
+<typeInfo handle="=14_interface/src&lt;g.extend{A.java[A" modifiers="513" timestamp="1647586050081"/>
+<typeInfo handle="=14_interface/src&lt;g.extend{B.java[B" modifiers="513" timestamp="1647586147101"/>
+<typeInfo handle="=14_interface/src&lt;f.diamond{B.java[B" modifiers="513" timestamp="1647585026595"/>
+<typeInfo handle="=14_interface/src&lt;g.extend{C.java[C" modifiers="513" timestamp="1647586202030"/>
 </typeInfoHistroy>

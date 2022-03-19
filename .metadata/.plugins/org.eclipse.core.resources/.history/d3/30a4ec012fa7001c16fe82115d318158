@@ -1,0 +1,5 @@
+package a.object.finalize;
+
+public class Counter {
+
+}
