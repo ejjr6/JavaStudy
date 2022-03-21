@@ -1,0 +1,14 @@
+package generic07_whildcard;
+
+public class Course<S> {
+	
+	private String name;
+	private S[] student;
+	
+	public Course(String name, S[] student) {
+		this.name = name;
+		this.student = student;
+	}
+	
+	
+}

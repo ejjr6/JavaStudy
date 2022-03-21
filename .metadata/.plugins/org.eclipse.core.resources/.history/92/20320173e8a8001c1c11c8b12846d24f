@@ -1,0 +1,10 @@
+package explain3;
+
+public class ArrayTest {
+	
+	int capacity;
+	E[] array;
+	int length;
+	
+	
+}

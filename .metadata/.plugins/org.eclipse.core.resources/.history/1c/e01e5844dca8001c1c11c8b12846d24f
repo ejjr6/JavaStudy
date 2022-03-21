@@ -1,0 +1,36 @@
+package generic07_whildcard;
+
+import java.util.Arrays;
+
+public class CourseExample {
+
+	public static void registerCourse(Course<?> course) {
+		System.out.println("["+course.getName()+" 수강생");
+		for(int i=0; i<course.getStudents().length; i++) {
+			System.out.println(course.getStudents()[i]+" ");
+		}
+		System.out.println();
+	}
+	
+	public static void registerStudent(Course<? extends Student> course) {
+		System.out.println("["+course.getName()+" 수강생]");
+		System.out.println(Arrays.toString(course.getStudents()));
+	}
+	
+	public static void registerWorker(Course<? super Worker> course) {
+		System.out.println("["+course.getName()+" 수강생]");
+		System.out.println(Arrays.toString(course.getStudents()));
+	}
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

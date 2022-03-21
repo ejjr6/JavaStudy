@@ -1,0 +1,16 @@
+package generic07_whildcard;
+
+public class CourseExample {
+
+	public static void registerCourse(Course<?> course) {
+		System.out.println("["+course.getName()+" 수강생");
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

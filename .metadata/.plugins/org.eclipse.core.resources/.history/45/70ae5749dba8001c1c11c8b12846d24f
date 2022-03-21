@@ -1,0 +1,22 @@
+package generic07_whildcard;
+
+public class Course<S> {
+	
+	private String name;
+	private S[] student;
+	
+	public Course(String name, int capacity) {
+		this.name = name;
+		this.student = (S[])new Object[capacity];
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public S[] getStudent() {
+		return student;
+	}
+	
+	
+}

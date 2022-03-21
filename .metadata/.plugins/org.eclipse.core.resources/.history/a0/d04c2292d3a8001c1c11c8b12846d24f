@@ -1,0 +1,19 @@
+package generic03_method1;
+
+class Util{
+	public static <T> Box<T> boxing(T t){
+		Box<T> box = new Box<>();
+		box.setType(t);
+		return box;
+	}
+}
+
+public class UtilExample {
+
+	public static void main(String[] args) {
+		Box<String> box1  = Util.<String>boxing("사과");
+		System.out.println(box1.getType());
+
+	}
+
+}

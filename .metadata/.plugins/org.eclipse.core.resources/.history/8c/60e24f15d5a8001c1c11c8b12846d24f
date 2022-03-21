@@ -1,0 +1,10 @@
+package generic04_method2_multi;
+
+public class UtilMultiExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package generic02_multi;
+
+public class TwinExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

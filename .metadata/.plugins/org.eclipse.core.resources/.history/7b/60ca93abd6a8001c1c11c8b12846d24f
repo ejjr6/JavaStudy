@@ -1,0 +1,14 @@
+package generic05_extends;
+
+public class ExtendsExample {
+
+	public static void main(String[] args) {
+		
+		int result = Util.<Integer>compare(10, 20);
+		System.out.println("result : " + result);
+		
+		result = Util.<Double>compare(3.14,5.14);
+		System.out.println("result : " + result);
+	}
+
+}

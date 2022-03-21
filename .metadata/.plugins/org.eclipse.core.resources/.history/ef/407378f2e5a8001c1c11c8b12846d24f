@@ -1,0 +1,5 @@
+package explain2;
+
+public class Pair<K, V> {
+
+}

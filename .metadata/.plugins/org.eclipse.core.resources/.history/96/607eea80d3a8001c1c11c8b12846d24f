@@ -1,0 +1,10 @@
+package generic03_method1;
+
+public class UtilExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
