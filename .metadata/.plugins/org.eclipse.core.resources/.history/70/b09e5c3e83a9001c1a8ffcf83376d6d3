@@ -1,0 +1,36 @@
+package c1_list;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+class Board{
+	String subject;
+	String content;
+	String writer;
+	
+	public Board(String subject, String content, String writer) {
+		this.subject = subject;
+		this.content = content;
+		this.writer = writer;
+	}
+}
+
+public class LinkedListExample {
+
+	public static void main(String[] args) {
+		List<Board> arrayList = new ArrayList<>();
+		List<Board> linkedList = new LinkedList<>();
+		
+		long startTime = 0;
+		long endTime = 0;
+		
+		int size = 100000;
+		
+		System.out.println("[ 추가작업 시간] ");
+		// 시간을 10억/1초로 표현
+		
+
+	}
+
+}

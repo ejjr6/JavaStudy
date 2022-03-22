@@ -1,0 +1,18 @@
+package c3_map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapExample {
+
+	public static void main(String[] args) {
+		Map<String, Integer> map = new HashMap<>();
+		map.put("최기근", 100);
+		map.put("심현석", 59);
+		map.put("양은정", 99);
+		map.put("박종혁", 80);
+		System.out.println(map);
+
+	}
+
+}

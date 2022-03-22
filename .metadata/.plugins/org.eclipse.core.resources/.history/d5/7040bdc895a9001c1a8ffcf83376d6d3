@@ -1,0 +1,15 @@
+package c3_map;
+
+import java.util.Properties;
+
+public class PropertiesExam {
+
+	public static void main(String[] args) {
+		Properties prop = new Properties();
+		prop.put("hi", "hello");
+		prop.put("hi", 10);
+		System.out.println(prop.get("hi"));
+
+	}
+
+}

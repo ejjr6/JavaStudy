@@ -1,0 +1,22 @@
+package c2_set;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashCodeExample {
+
+	public static void main(String[] args) {
+		Set<String> names = new HashSet<>();
+		String name1 = "최기근";
+		String name2 = "최기근";
+		System.out.println(name1.hashCode());
+		System.out.println(name2.hashCode());
+		System.out.println(name1.equals(name2));
+		names.add(name1);
+		names.add(name2);
+		System.out.println(names.size());
+		System.out.println(names);
+
+	}
+
+}

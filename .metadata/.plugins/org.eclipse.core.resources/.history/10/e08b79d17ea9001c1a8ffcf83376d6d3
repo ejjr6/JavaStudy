@@ -1,0 +1,20 @@
+package c1_list;
+
+import java.util.ArrayList;
+
+public class ArrayListExam {
+
+	public static void main(String[] args) {
+		// 순서(index)가 존재하고 데이터 중복 저장이 가능한 List Collection
+		// generic이 지정되어 있지않으면 Object Type
+		// 값이 들어갈때 Type을 검증 할 수 없고
+		// 값을 꺼내올때도 확인을 해야함.
+		ArrayList array = new ArrayList();
+		array.add("문자열");
+		array.add(100);
+		String s = (String)array.get(0);
+		System.out.println(array);
+
+	}
+
+}
