@@ -1,0 +1,8 @@
+package guide;
+
+/**
+ * 회원 관리에 대한 전반적인 내용을 정의한다.
+ */
+public abstract class AppBase {
+
+}

@@ -1,0 +1,84 @@
+package guide;
+
+public class MemberManagement extends AppBase
+{
+
+	@Override
+	protected void isRun() {
+		while(true) {
+			System.out.println("프로그램 시작!");
+			System.out.println("=====================================================");
+			System.out.println("1.회원가입|2.로그인|3.회원정보|4.회원정보수정|5.회원탈퇴|6.종료");
+			System.out.println("=====================================================");
+			System.out.println("메뉴 선택 > ");
+			
+			int Num = sc.nextInt();
+			
+			switch(Num) {
+			case 1 :
+				join();
+				break;
+			case 2 :
+				login();
+				break;
+			case 3 :
+				select();
+				break;
+			case 4 :
+				update();
+				break;
+			case 5 :
+				delete();
+				break;
+			case 6 :
+				terminate();
+				break;
+				
+			}
+		}
+		
+	}
+
+	@Override
+	protected void terminate() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected void join() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected void login() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected void select() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected void delete() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected void deleteMember() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
