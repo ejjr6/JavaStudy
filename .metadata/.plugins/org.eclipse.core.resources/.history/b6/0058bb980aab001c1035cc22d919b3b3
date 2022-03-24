@@ -1,0 +1,10 @@
+package f03_input;
+
+public class ReadExample1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

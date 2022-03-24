@@ -1,0 +1,10 @@
+package f01_file;
+
+public class FileExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

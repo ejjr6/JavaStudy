@@ -1,0 +1,40 @@
+package mysql.b_book.pstmt;
+
+import java.util.ArrayList;
+
+import mysql.b_book.BookVO;
+import mysql.dao.BookDAO;
+
+public class BookPSTMTDAOImpl implements BookDAO {
+
+	@Override
+	public int insert(BookVO book) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public ArrayList<BookVO> select() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int update(BookVO book) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public BookVO selectBook(int num) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int delete(int num) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

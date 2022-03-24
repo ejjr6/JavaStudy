@@ -1,5 +1,0 @@
-package object_array;
-// data class - Value Object(VO)
-public class Student {
-	
-}

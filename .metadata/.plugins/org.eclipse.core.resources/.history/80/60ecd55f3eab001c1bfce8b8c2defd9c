@@ -1,0 +1,5 @@
+package mysql.b_book;
+
+public class BookVO {
+
+}

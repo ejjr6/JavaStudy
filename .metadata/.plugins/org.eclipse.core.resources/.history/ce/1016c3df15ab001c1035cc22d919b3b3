@@ -1,0 +1,10 @@
+package f07_stream_reader_wrtier;
+
+public class StreamReaderExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

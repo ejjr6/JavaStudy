@@ -1,0 +1,37 @@
+package mysql.a_base;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class PSTMTExample {
+
+	public static void main(String[] args) {
+		String driver = "com.mysql.cj.jdbc.Driver";
+		String url = "jdbc:mysql://127.0.0.1:3306/smart";
+		String user = "smart";
+		String password = "12345";
+		
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		
+		try {
+			Class.forName(driver);
+			conn = DriverManager.getConnection(url, user, password);
+			System.out.println("DB 연결 성공");
+		} catch (ClassNotFoundException e) {
+			System.out.println("DRIVER class를 찾지 못함");
+		} catch (SQLException e) {
+			System.out.println("연결 정보 오류 : " + e.getMessage());
+		} finally {
+			try {
+				if(rs != null) rs.close();
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch (SQLException e) {}
+		}
+	}
+}

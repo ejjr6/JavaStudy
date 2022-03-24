@@ -1,0 +1,10 @@
+package f09_data;
+
+public class DataStreamExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

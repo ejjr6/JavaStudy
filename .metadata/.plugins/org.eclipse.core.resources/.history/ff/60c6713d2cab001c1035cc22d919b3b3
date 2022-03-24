@@ -1,0 +1,36 @@
+package mysql.a_base;
+
+public class DataBaseExample {
+
+	public int a;
+	
+	// 참고 - https://hashcode.co.kr/questions/654
+	static {
+		System.out.println("1 static 블럭 실행");
+	}
+	
+	{
+		a = 100;
+		System.out.println("3 실행 블럭 run");
+	}
+	
+	
+	DataBaseExample() {
+		System.out.println("4 a : "+a);
+	}
+
+	public static void main(String[] args) {
+		System.out.println("2 Main 시작");
+		new DataBaseExample();
+		
+		// DB 연결 정보 - Java DataBase Connectivity
+		// Driver Class 위치 정보
+		// 사용할 DB와 Schema 정보
+		// 사용자 계정 정보
+		String driver = "com.mysql.cj.jdbc.Driver";
+		String url = "jdbc:mysql://localhost:3306/smartWeb";
+		String username = "root";
+		String password = "12345";
+	}
+
+}

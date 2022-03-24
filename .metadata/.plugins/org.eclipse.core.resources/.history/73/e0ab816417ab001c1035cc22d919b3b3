@@ -1,0 +1,16 @@
+package f07_stream_reader_wrtier;
+
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+
+public class SystemReaderExample {
+
+	public static void main(String[] args) {
+		InputStream is = System.in;
+		Reader reader = new InputStreamReader(is);
+		int readData = 0;
+
+	}
+
+}

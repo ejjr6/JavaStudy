@@ -1,0 +1,11 @@
+package f09_data;
+
+public class DataStreamExample {
+
+	public static void main(String[] args) {
+		// 기본 타입 8가지 + String
+		
+
+	}
+
+}

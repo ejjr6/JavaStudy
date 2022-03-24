@@ -1,0 +1,30 @@
+package f02_output;
+
+import java.io.File;
+import java.io.IOException;
+
+public class WriteExample {
+
+	public static void main(String[] args) {
+		String path = "C:"+File.separator+"Temp"+File.separator+"File2.txt";
+		
+		File file = new File(path);
+		if(!file.exists()) {
+			try {
+				file.createNewFile();
+				System.out.println("파일 생성 완료");
+			} catch (IOException e) {
+				System.out.println("생성 실패 : " + e.getMessage());
+			}
+		}
+		/*
+		 * try { OutputStream os = new FileOutputStream(path, true);
+		 * 
+		 * 
+		 * } catch (FileNotFoundException e) { System.out.println("파일을 찾을 수 없습니다."); }
+		 */
+		
+
+	}
+
+}

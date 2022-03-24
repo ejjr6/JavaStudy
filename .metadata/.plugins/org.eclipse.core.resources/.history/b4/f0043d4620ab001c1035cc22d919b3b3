@@ -1,0 +1,7 @@
+package f10_object.append;
+
+import java.io.Serializable;
+
+public class Player implements Serializable {
+
+}

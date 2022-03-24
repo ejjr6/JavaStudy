@@ -1,0 +1,10 @@
+package f05_writer;
+
+public class WriterExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
