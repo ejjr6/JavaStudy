@@ -1,0 +1,15 @@
+package account.pstmt;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import util.DBHelper;
+
+public class DbHelperTest {
+	
+	public static void main(String[] args) throws SQLException{
+		Connection conn = DBHelper.getConnection();
+		System.out.println("연결성공 : " + conn);
+		
+	}
+}

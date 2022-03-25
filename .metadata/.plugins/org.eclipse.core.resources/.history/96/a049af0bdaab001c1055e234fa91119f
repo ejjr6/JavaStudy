@@ -1,0 +1,17 @@
+package util;
+
+public class DBHelper {
+
+	private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
+	private static final String URL = "jdbc:mysql://localhost:3306/smart";
+	private static final String USER = "smart";
+	private static final String PASS = "12345";
+	
+	private DBHelper() {}
+	
+	private static Connection conn = null;
+	
+	public static Connection get Connection() {
+		
+	}
+}

@@ -1,0 +1,35 @@
+package account;
+
+import java.util.Scanner;
+
+import account.stmt.AccountSTMTDAOImpl;
+import dao.AccountDAO;
+
+public class BankApplication {
+	
+	Scanner sc = new Scanner(System.in);
+	
+	AccountDAO dao;
+	
+	BankApplication(){
+		dao = new AccountSTMTDAOImpl();
+//		dao = new AccountPSTMTDAOImpl();
+		run();
+	}
+	
+	void run() {
+		// 1. 계좌생성
+		// 2. 계좌조회
+		// 3. 예금
+		// 4. 출금
+		// 5. 종료
+		boolean isRun = true;
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		new BankApplication();
+	}
+}

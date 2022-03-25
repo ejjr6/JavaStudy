@@ -1,5 +1,0 @@
-package f.polymorphism.customer;
-
-public class GoldCustomer extends Customer {
-
-}

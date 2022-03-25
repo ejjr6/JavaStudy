@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;mysql.properties&apos; to &apos;24_database_practice/src/util&apos;&#x0D;&#x0A;- Original project: &apos;24_database_practice&apos;&#x0D;&#x0A;- Destination element: &apos;24_database_practice/src/util&apos;&#x0D;&#x0A;- Original element: &apos;mysql.properties&apos;" description="Copy file" destination="/src&lt;util" element1="src/prop/mysql.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1648170003346" units="0" version="1.0"/>
+</session>

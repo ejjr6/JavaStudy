@@ -1,0 +1,55 @@
+package member;
+
+import dao.MemberDAO;
+
+public class MemberManagement extends AppBase {
+
+	public MemberManagement(MemberDAO dao) {
+		super(dao);
+	}
+
+	@Override
+	protected void isRun() {
+		while(isRun) {
+			System.out.println();
+		}
+
+	}
+
+	@Override
+	protected void terminate() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void join() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void login() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void select() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void update() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void delete() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

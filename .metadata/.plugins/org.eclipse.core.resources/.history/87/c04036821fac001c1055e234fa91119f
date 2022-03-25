@@ -1,0 +1,47 @@
+package member;
+
+public class MemberManagement extends AppBase {
+
+	@Override
+	protected void isRun() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void terminate() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void join() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void login() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void select() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void update() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void delete() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
