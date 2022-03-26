@@ -1,0 +1,9 @@
+package t05_control_method.join;
+
+public class SumThread extends Thread {
+	
+	private int sum;
+
+	
+	
+}

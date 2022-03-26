@@ -1,0 +1,12 @@
+package t05_control_method.stop;
+
+import object;
+
+public class InterruptThread extends object {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

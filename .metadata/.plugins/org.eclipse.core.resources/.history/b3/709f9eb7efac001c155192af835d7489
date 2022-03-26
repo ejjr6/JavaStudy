@@ -1,0 +1,38 @@
+package t04_synchronized;
+
+class UserThread extends Thread{
+	private Calculator calc;
+
+	public void setCalc(Calculator calc) {
+		this.calc = calc;
+	}
+
+	@Override
+	public void run() {
+		calc.setMemory(50);;
+	}
+}
+
+class User2Thread extends Thread{
+	private Calculator calc;
+
+	public void setCalc(Calculator calc) {
+		this.calc = calc;
+	}
+
+	@Override
+	public void run() {
+		calc.setMemory(100);
+	}
+}
+
+
+
+public class SynchronizedTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

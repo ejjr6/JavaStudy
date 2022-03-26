@@ -1,0 +1,10 @@
+package t05_control_method.notify_wait_1;
+
+public class DataBoxExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,6 +1,0 @@
-package GUIDE;
-
-public class Player {
-	
-	private PlayerLevel level;
-}

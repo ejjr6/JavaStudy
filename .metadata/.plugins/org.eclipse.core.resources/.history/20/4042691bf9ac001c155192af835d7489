@@ -1,0 +1,28 @@
+package t05_control_method.stop;
+
+class PrintThread1 extends Thread{
+	public boolean isRun = true;
+
+	public void setRun(boolean isRun) {
+		this.isRun = isRun;
+	}
+
+	@Override
+	public void run() {
+		while(isRun) {
+			System.out.println("실행중");
+		}
+		System.out.println("자원정리");
+		System.out.println("실행종료");
+	}
+}
+
+
+public class StopFlagExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
