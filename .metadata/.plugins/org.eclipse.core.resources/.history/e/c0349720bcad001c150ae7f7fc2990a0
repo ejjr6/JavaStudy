@@ -1,0 +1,39 @@
+package n3_echo_chat.server;
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.Socket;
+
+
+// socket으로 연결된 client의 정보를 저장하고
+// 기능을 수행할 클래스
+public class Client {
+	// 연결된 client socket의 정보를 저장할 socket
+	Socket socket;
+
+	public Client(Socket socket) {
+		this.socket = socket;
+		receive();
+	}
+	// 연결된 client에게 메세지를 전달할 메소드
+	public void send(String message) {
+		OutputStream os = null;
+		try {
+			byte[] bytes = message.getBytes("UTF-8");
+			os = socket.getOutputStream();
+			os.write(bytes);
+			os.flush();
+		} catch (IOException e) {
+			try {
+				System.out.println("Client 통신 안됨");
+				if(os != null) {os.close();}
+				
+				if(socket != null && !socket.isClosed()) {
+					socket.close();
+				}
+				ServerExample.clients.remove(this);
+			} catch (IOException e1) {}
+		}
+	}
+	
+}

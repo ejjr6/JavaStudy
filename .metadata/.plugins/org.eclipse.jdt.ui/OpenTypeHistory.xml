@@ -30,7 +30,9 @@
 <typeInfo handle="=22_input_output_stream/C:\/Program Files\/Java\/jre1.8.0_311\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1636770616911"/>
 <typeInfo handle="=23_database/src&lt;mysql.dao{BookDAO.java[BookDAO" modifiers="513" timestamp="1648104686827"/>
 <typeInfo handle="=24_database_practice/src&lt;dao{AccountDAO.java[AccountDAO" modifiers="513" timestamp="1648166501953"/>
-<typeInfo handle="=24_database_practice/src&lt;member{Member.java[Member" modifiers="1" timestamp="1648181193213"/>
-<typeInfo handle="=24_database_practice/src&lt;dao{MemberDAO.java[MemberDAO" modifiers="513" timestamp="1648182106595"/>
-<typeInfo handle="=24_database_practice/src&lt;member{AppBase.java[AppBase" modifiers="1025" timestamp="1648200989180"/>
+<typeInfo handle="=24_database_practice/src&lt;member{Member.java[Member" modifiers="1" timestamp="1648203189162"/>
+<typeInfo handle="=24_database_practice/src&lt;dao{MemberDAO.java[MemberDAO" modifiers="513" timestamp="1648199876435"/>
+<typeInfo handle="=24_database_practice/src&lt;member{AppBase.java[AppBase" modifiers="1025" timestamp="1648201376311"/>
+<typeInfo handle="=26_thread/C:\/Program Files\/Java\/jre1.8.0_311\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1636770616911"/>
+<typeInfo handle="=26_thread/C:\/Program Files\/Java\/jre1.8.0_311\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1636770616911"/>
 </typeInfoHistroy>

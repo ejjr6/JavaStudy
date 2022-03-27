@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ClientExample.java&apos; to &apos;27_network/src/n3_echo_chat.client&apos;&#x0D;&#x0A;- Original project: &apos;27_network&apos;&#x0D;&#x0A;- Destination element: &apos;27_network/src/n3_echo_chat.client&apos;&#x0D;&#x0A;- Original element: &apos;n3_echo_chat.server.ClientExample.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;n3_echo_chat.client" element1="/src&lt;n3_echo_chat.server{ClientExample.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1648379605777" units="1" version="1.0"/>
+</session>
